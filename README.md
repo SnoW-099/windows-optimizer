@@ -62,6 +62,7 @@ https://git-scm.com/download/win
 
 ## Funciones
 
+- Analizador del PC con recomendaciones.
 - Snapshot del sistema.
 - Optimizacion rapida.
 - Limpieza de temporales.
@@ -72,6 +73,7 @@ https://git-scm.com/download/win
 - Punto de restauracion.
 - Accesos a herramientas de Windows.
 - Gaming Boost.
+- Logs locales en `logs/`.
 
 ## Requisito
 
