@@ -2,6 +2,9 @@
 setlocal
 title Subir Windows Optimizer a GitHub
 
+set "ROOT=%~dp0.."
+pushd "%ROOT%"
+
 echo.
 echo Windows Optimizer - subir a GitHub
 echo By snow
@@ -34,4 +37,5 @@ git push -u origin main
 
 echo.
 echo Si no hubo errores, ya deberia verse en GitHub.
+popd
 pause

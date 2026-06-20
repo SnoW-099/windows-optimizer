@@ -1,15 +1,16 @@
 @echo off
 title Snow Windows Flow Python - By snow
+set "APP=%~dp0src\snow_optimizer.py"
 where py >nul 2>nul
 if %errorlevel%==0 (
-    py "%~dp0snow_optimizer.py"
+    py "%APP%"
     pause
     exit /b
 )
 
 where python >nul 2>nul
 if %errorlevel%==0 (
-    python "%~dp0snow_optimizer.py"
+    python "%APP%"
     pause
     exit /b
 )

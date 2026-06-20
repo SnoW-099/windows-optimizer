@@ -1,16 +1,17 @@
 @echo off
 setlocal
 set "ROOT=%~dp0"
+set "APP=%ROOT%src\snow_optimizer.py"
 
 where py >nul 2>nul
 if %errorlevel%==0 (
-    py "%ROOT%snow_optimizer.py" %*
+    py "%APP%" %*
     exit /b %errorlevel%
 )
 
 where python >nul 2>nul
 if %errorlevel%==0 (
-    python "%ROOT%snow_optimizer.py" %*
+    python "%APP%" %*
     exit /b %errorlevel%
 )
 
