@@ -45,6 +45,21 @@ Se generara:
 Snow-Windows-Flow-By-snow.zip
 ```
 
+## Subir a GitHub
+
+Este repo ya tiene commit local. Para verlo en GitHub:
+
+1. Crea un repo vacio en GitHub llamado `windows-optimizer`.
+2. Copia la URL del repo.
+3. Abre `subir_a_github.bat`.
+4. Pega la URL cuando la pida.
+
+Necesitas Git instalado:
+
+```text
+https://git-scm.com/download/win
+```
+
 ## Funciones
 
 - Snapshot del sistema.
